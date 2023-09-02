@@ -1,0 +1,81 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("../Assets/bgc.png");
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover; /* important*/
+    /* background-size: 100px 100%; */
+    background-attachment: fixed;
+    /* background-color: red; */
+    font-family: 'Poppins', sans-serif;
+}
+
+header
+{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+
+}
+.menu{
+    flex-grow: 2;
+}
+.menu li{
+    display: inline-block;
+    margin-left: 10%;
+    color: #fab516;
+    font-size: 21px;
+}
+.menu ul{
+    margin: 4% 21% 0;
+    /* font-weight: 100; */
+}
+.logo{
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.order{
+    margin-right: 8%;
+    margin-top: 2.6%;
+}
+.order button{
+    width: 150%;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+.main-part
+{
+    font-size: 43px;
+    text-align: center;
+    padding-top: 8%;
+    color: #f9b413;
+    font-weight: 100;
+}
+.btn
+{
+    text-align: center;
+    /* padding-top:2%; */
+}
+.btn button{
+    padding: 15px 35px;
+    margin-left: 3%;
+    border-radius: 6px;
+    font-weight: 600;
+
+}
+.scroll{
+    text-align: right;
+    margin-right: 2%;
+    /* margin-top: 1%; */
+}
+button{
+    background-color: #FF515F;
+    color: white;
+    border: .1px solid white;
+}
